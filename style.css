@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
-@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond");
 
 html {
     box-sizing: border-box;
@@ -52,7 +52,7 @@ body {
 
 #header {
     align-items: center;
-    background-image: url(Gradient.jpg);
+    background-image: url("images/Gradient.jpg");
     background-attachment: fixed;
     color: rgb(240, 236, 236);
     display: flex;
@@ -88,7 +88,7 @@ body {
 }
 
 #container {
-    background-image: url(Gradient.jpg);
+    background-image: url("images/Gradient.jpg");
     background-attachment: fixed;
     font-size: 20px;
     padding: 1.5em 7em;
@@ -123,96 +123,56 @@ body {
     list-style: none;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
 @media (min-width: 1281px) {
-    body{
-      width: 100vw;
+    body {
+        width: 100vw;
     }
-    #container{
-      width: 1160px;
+    #container {
+        width: 1160px;
     } 
 }
   
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
-    
+@media (min-width: 1025px) and (max-width: 1280px) {
     body{
         width: 1280px;
-      }
+    }
     #container{
         width: 1000px;
     } 
-    
-  }
+}
   
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-    body{
-        width: 1024px;
-      }
-    #container{
-        width: 744px;
-    } 
-    
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-    
+@media (min-width: 768px) and (max-width: 1024px) {
     body{
         width: 1024px;
     }
     #container{
         width: 744px;
     } 
-    
-  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    body{
+        width: 1024px;
+    }
+    #container{
+        width: 744px;
+    } 
+}
   
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
+@media (min-width: 481px) and (max-width: 767px) {
     body{
         width: 767px;
     }
     #container{
         width: 487px;
-    } 
-    
-  }
+    }  
+}
   
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
+@media (min-width: 320px) and (max-width: 480px) {
     body{
         width: 480px;
     }
     #container{
         width: 200px;
-    } 
-    
-  }
+    }  
+}
