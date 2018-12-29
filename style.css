@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-color: rgb(205, 202, 202);
+    background-color: rgb(238, 238, 238);
     font-size: 18px;
     font-family: EB Garamond;
     line-height:1.4;
@@ -17,6 +17,7 @@ body {
 }
 
 body:before {
+  background: url("images/Gradient.jpg") no-repeat center center;
   content: "";
   display: block;
   position: fixed;
@@ -25,7 +26,6 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url("images/Gradient.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -93,10 +93,10 @@ body:before {
 }
 
 .fade:hover {
-    opacity:0.9;
-    -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
+    opacity:0.9;
     transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 #container {
@@ -131,8 +131,32 @@ body:before {
     clear: both;
 }
 
-.edu-list {
+#about-list {
     list-style: none;
+    padding:0;
+}
+
+#edu-list {
+    list-style: none;
+    padding:0;
+}
+
+.external-link {
+    color: black;
+    text-decoration:underline;
+}
+
+#foot {
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+#foot a {
+    margin: 4em;
+}
+
+#foot h2 {
+    margin-bottom: 1em;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
