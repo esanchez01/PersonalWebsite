@@ -138,16 +138,13 @@ body:before {
 
 #edu-list {
     list-style: none;
-    padding:0;
 }
 
 .external-link {
     color: black;
-    text-decoration:underline;
 }
 
 #foot {
-    margin-bottom: 0em;
     text-align: center;
 }
 
@@ -185,6 +182,14 @@ body:before {
     .sec-title {
         text-align: center;
     }
+
+    #foot h2 {
+        margin-bottom: .5em;
+    }
+
+    #foot a {
+        margin: 1.5em;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -203,10 +208,22 @@ body:before {
     .sec-title {
         text-align: center;
     }
+
+    #foot h2 {
+        margin-bottom: .5em;
+    }
+
+    #foot a {
+        margin: 1.5em;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     #container{
         padding: 1.5em 3em;
+    }
+
+    #foot a {
+        margin: 3em;
     }
 }
