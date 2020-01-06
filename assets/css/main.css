@@ -909,8 +909,8 @@ input, select, textarea {
 	{
 		padding-top: 0;
 		padding-bottom: 1em;
+		background-size: 1500px;
 		background-image: url('images/ocean.jpg');
-		background-size: 65em;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
 	}
