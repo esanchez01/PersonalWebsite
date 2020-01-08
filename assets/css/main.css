@@ -1435,6 +1435,7 @@ input, select, textarea {
 @media screen and (max-width: 420px) {
 	body, input, textarea, select {
 		font-size: 12pt;
+		line-height: 25px;
 	}
 
 	h2 {
@@ -1521,7 +1522,7 @@ input, select, textarea {
 	header {
 		font-size: 26px;
 		font-weight: 900;
-		margin-top: 5em;
+		margin-top: 3.5em;
 	}
 
 	#portrait {
@@ -1538,6 +1539,11 @@ input, select, textarea {
 }
 
 @media screen and (max-width: 330px) {
+
+	body, input, textarea, select {
+		font-size: 11pt;
+		line-height: 22px;
+	}
 
 	.gallery.box1 {
 		width: 285px;
