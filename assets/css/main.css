@@ -686,9 +686,9 @@ input, select, textarea {
 	{
 		position: absolute;
 		opacity: .7;
-		top: 31em;
 		border: 0;
 		margin-left: -1.10em;
+		top: 85%;
 	}
 
 	.button:hover
@@ -909,10 +909,10 @@ input, select, textarea {
 	{
 		padding-top: 0;
 		padding-bottom: 1em;
-		background-size: 1500px;
+		background-size: 1600px;
 		background-image: url('images/ocean.jpg');
 		background-attachment: fixed;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 	}
 
 	#main > section.one .image.featured
@@ -996,7 +996,7 @@ input, select, textarea {
 	}
 
 	.read-more-trigger {
-		margin-left: 12.5em;
+		margin-left: 40%;
 	}
 
 	ul.icons a {
@@ -1315,7 +1315,7 @@ input, select, textarea {
 	}
 
 	.read-more-trigger {
-		margin-left: 11em;
+		margin-left: 40%;
 	}
 
 	/* Icons */
@@ -1326,9 +1326,6 @@ input, select, textarea {
 
 }
 
-
-
-/* Mobile */
 
 @media screen and (max-width: 736px) {
 
@@ -1408,7 +1405,7 @@ input, select, textarea {
 	}
 
 	.read-more-trigger {
-		margin-left: 8.5em;
+		margin-left: 40%;
 	}
 
 	#portfolio.two {
@@ -1433,8 +1430,196 @@ input, select, textarea {
 	#typewriter {
 		width: 16em;
 	}
+}
 
-	.button.scrolly {
-		top: 32em;
+@media screen and (max-width: 420px) {
+	body, input, textarea, select {
+		font-size: 12pt;
+	}
+
+	h2 {
+		font-size: 1.25em;
+		letter-spacing: 0;
+		font-weight: 300;
+	}
+
+	.read-more-trigger {
+		margin-left: 30%;
+	}
+
+	ul.icons a {
+		font-size: 2.5em;
+		width: 2.25em !important;
+	}
+
+	.gallery.box1 {
+		width: 320px;
+		height: 260px;
+	}
+
+	.gallery.box2 {
+		width: 320px;
+		height: 260px;
+	}
+
+	.gallery.box3 {
+		width: 320px;
+		height: 260px;
+	}
+
+	.gallery.box4 {
+		width: 320px;
+		height: 260px;
+	}
+
+	.gallery .background, .gallery .column{
+		height: 180px;
+		width: 400px;
+	}
+
+	.background.dash {
+		background-size: 320px;
+	}
+
+	.background.gis {
+		background-size: 320px;
+	}
+
+	.background.wrangler {
+		background-size: 320px;
+	}
+
+	.background.traffic {
+		background-size: 320px;
+	}
+
+	.gallery .info {
+		top: 11.2em;
+	}
+
+	.gallery .info h2 a {
+		font-size: 27px;
+		margin-top: .5em;
+		outline: 0;
+		border: 0; 
+	}
+
+	.gallery .date{
+		font-size: 20px;
+	}
+
+	.gallery .foot p {
+		font-size: 14px;
+		line-height: 15px;
+	}
+
+	.gallery .foot {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	header {
+		font-size: 26px;
+		font-weight: 900;
+		margin-top: 5em;
+	}
+
+	#portrait {
+		width: 180px;
+	}
+
+	.highlight {
+		font-size: 16px;
+	}
+
+	#typewriter {
+		width: 13em;
+	}
+}
+
+@media screen and (max-width: 330px) {
+
+	.gallery.box1 {
+		width: 285px;
+		height: 245px;
+	}
+
+	.gallery.box2 {
+		width: 285px;
+		height: 245px;
+	}
+
+	.gallery.box3 {
+		width: 285px;
+		height: 245px;
+	}
+
+	.gallery.box4 {
+		width: 285px;
+		height: 245px;
+	}
+
+	.gallery .background, .gallery .column{
+		height: 180px;
+		width: 285px;
+	}
+
+	.background.dash {
+		background-size: 285px;
+	}
+
+	.background.gis {
+		background-size: 285px;
+	}
+
+	.background.wrangler {
+		background-size: 285px;
+	}
+
+	.background.traffic {
+		background-size: 285px;
+	}
+
+	.gallery .info {
+		top: 10em;
+	}
+
+	.gallery .info h2 a {
+		font-size: 25px;
+		margin-top: .5em;
+		outline: 0;
+		border: 0; 
+	}
+
+	.gallery .date{
+		font-size: 20px;
+	}
+
+	.gallery .foot p {
+		font-size: 12px;
+		line-height: 13px;
+	}
+
+	.gallery .foot {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	header {
+		font-size: 22.5px;
+		font-weight: 900;
+		margin-top: 3em;
+	}
+
+	#portrait {
+		width: 160px;
+	}
+
+	.highlight {
+		font-size: 14px;
+	}
+
+	#typewriter {
+		width: 15em;
 	}
 }
