@@ -419,8 +419,8 @@ input, select, textarea {
 		background-size: 360px;
 	}
 
-	.background.gis {
-		background: url("images/bioregional.png");
+	.background.genome {
+		background: url("images/genome.png");
 		background-size: 360px;
 	}
 
@@ -1482,7 +1482,7 @@ input, select, textarea {
 		background-size: 320px;
 	}
 
-	.background.gis {
+	.background.genome {
 		background-size: 320px;
 	}
 
@@ -1578,7 +1578,7 @@ input, select, textarea {
 		background-size: 285px;
 	}
 
-	.background.gis {
+	.background.genome {
 		background-size: 285px;
 	}
 
