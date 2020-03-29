@@ -23,6 +23,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+div#preload {
+	display: none;
+}
+
 body {
 	line-height: 1;
 }
@@ -907,12 +911,12 @@ input, select, textarea {
 
 	#main > section.one
 	{
-		padding-top: 0;
-		padding-bottom: 1em;
-		background-size: 1600px;
 		background-image: url('images/ocean.jpg');
+		background-size: 1600px;
 		background-attachment: fixed;
 		background-repeat: repeat;
+		padding-top: 0;
+		padding-bottom: 1em;
 	}
 
 	#main > section.one .image.featured
