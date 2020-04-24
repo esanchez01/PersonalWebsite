@@ -1527,6 +1527,11 @@ input, select, textarea {
 		line-height: 15px;
 	}
 
+	.gallery .foot a {
+		font-size: 14px;
+		line-height: 15px;
+	}
+
 	.gallery .foot {
 		margin-top: 1em;
 		margin-bottom: 1em;
