@@ -433,8 +433,8 @@ input, select, textarea {
 		background-size: 360px;
 	}
 
-	.background.wrangler {
-		background: url("images/wrangler.png");
+	.background.pickups {
+		background: url("images/pickups.png");
 		background-size: 360px;
 	}
 
