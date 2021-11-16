@@ -920,7 +920,7 @@ input, select, textarea {
 
 	#main > section.one
 	{
-		background-image: url('images/ocean.jpg');
+		background-color: #2F3238;
 		background-size: 1600px;
 		background-attachment: fixed;
 		background-repeat: repeat;
