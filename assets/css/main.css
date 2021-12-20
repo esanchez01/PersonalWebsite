@@ -950,7 +950,7 @@ input, select, textarea {
 
 /* Responsive */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 961px) and (max-width: 2100px) {
 
 	.container {
 		width: 1200px;
@@ -1021,7 +1021,7 @@ input, select, textarea {
 
 /* Wide */
 
-@media screen and (min-width: 961px) and (max-width: 1880px) {
+@media screen and (min-width: 961px) and (max-width: 2100px) {
 
 	/* Basic */
 
